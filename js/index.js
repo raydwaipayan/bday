@@ -52,7 +52,10 @@ $('.mixer').click(function(){
     }
 
 })
-
+$('.bake').click(function(){
+    $('.stage3').fadeOut();
+        fire_modal('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/oven_modal.png','Bake successfull!','Yay!!!! Cake is Baked. Now add chocooooooooo!');
+})
 $('.tin').draggable({
     revert:true
 })
